@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Zync || Intelligence API Docs</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="app">
+        <aside class="sidebar">
+            <div class="logo">ZYNC.API</div>
+            <nav>
+                <button class="nav-btn active" data-page="docs">Hashtag Engine</button>
+                <button class="nav-btn" data-page="about">About System</button>
+            </nav>
+        </aside>
+        <main class="viewport">
+            <section id="docs" class="page">
+                <h1>Hashtag <span class="blue">Engine.</span></h1>
+                <p class="lead">Analisis metadata hashtag TikTok secara real-time.</p>
+                <div class="card">
+                    <div class="field">
+                        <label>TAG</label>
+                        <input type="text" id="tag" placeholder="fyp">
+                    </div>
+                    <div class="field">
+                        <label>API KEY</label>
+                        <input type="password" id="key" placeholder="ZYNC-PRM-123">
+                    </div>
+                    <button id="run">RUN ANALYTICS</button>
+                </div>
+            </section>
+            <section id="about" class="page" style="display:none">
+                <h1>About <span class="blue">Zync.</span></h1>
+                <p class="lead">Infrastruktur data Edge untuk ekstraksi konten media sosial masif.</p>
+            </section>
+            <section class="preview">
+                <div class="pre-head">LIVE_RESPONSE <span id="time"></span></div>
+                <pre id="out">// Waiting for request...</pre>
+            </section>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+                      </html>
