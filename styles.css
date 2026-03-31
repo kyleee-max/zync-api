@@ -1,0 +1,24 @@
+.landing-page {
+    background-color: #1a1a2e; /* Dark blue background */
+    color: #ffffff; /* White text color */
+    font-family: 'Arial', sans-serif;
+    padding: 20px;
+}
+
+.header {
+    background-color: #16213e; /* Darker blue for header */
+    padding: 15px;
+    text-align: center;
+}
+
+.button {
+    background-color: #0f3460; /* Button color */
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #5c5c8a; /* Lighter color on hover */
+}
